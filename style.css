@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Rethink+Sans:wght@600&family=Roboto:wght@300&family=Rubik+Bubbles&family=Whisper&display=swap');
+
+
+
+
+*{
+padding: 0;
+margin: 0;
+
+}
+
+.container{
+width: 100%;
+height: 109vh;
+ background-image: url(img/1.jpg); 
+background-size: cover;
+background-position: center;
+}
+
+
+.navbar{
+/* display: flex; */
+display: inline;
+justify-content: center;
+}
+
+ul{
+display: flex;
+justify-content: center;
+list-style-type: none;
+
+}
+
+ul li{
+margin-left: 50px;
+font-style: none;
+    margin-top: 12px;
+}
+
+a{
+text-decoration: none;
+font-size: 22px;
+color: white;
+margin-top: 12px;
+transition:ease-out 0.7s
+}
+
+
+a:hover{
+color: red;
+
+}
+
+
+.text{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: inline-block;
+    display: block; */
+    margin-top: 154px;
+}
+.text1{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        /* display: inline-block;
+        display: block; */
+    }
+.tt1{
+color: white;
+transition: step-end;
+cursor: pointer;
+font-size: 20px;
+font-family: sans-serif;
+}    
+
+.bt1{
+justify-content: center;
+text-align: center;
+margin-left: 583px;
+width: 99px;
+height: 30px;
+margin-top: 10px;
+margin-right: 12px;
+border-radius: 12px;
+background: transparent;
+/* border: none; */
+cursor: pointer;
+
+}
+
+.bt2{
+margin-right: 556px;
+width: 99px;
+height: 30px;
+border-radius: 12px;
+background: transparent;
+/* border: none; */
+cursor: pointer;
+}
+
+.bttm button{
+/* display: inline; */
+ margin-top: 50px;
+ border: 2px solid blue;
+}
+
+.bt1:hover{
+border: 2px solid mediumvioletred;
+background-color: mediumorchid;
+transition: ease-in-out;
+transition: 0.9s;
+}
+
+.bt2:hover{
+    border: 2px solid mediumvioletred;
+    background-color: mediumorchid;
+    transition: ease-in-out;
+    transition-duration: 0.9s;
+    }
